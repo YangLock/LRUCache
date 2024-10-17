@@ -55,12 +55,6 @@ build CMakeFiles/LRU.dir/main.cpp.o: CXX_COMPILER__LRU_unscanned_Debug /Users/vi
   OBJECT_DIR = CMakeFiles/LRU.dir
   OBJECT_FILE_DIR = CMakeFiles/LRU.dir
 
-build CMakeFiles/LRU.dir/LRUCache.cpp.o: CXX_COMPILER__LRU_unscanned_Debug /Users/victor/CLionProjects/LRU/LRUCache.cpp || cmake_object_order_depends_target_LRU
-  DEP_FILE = CMakeFiles/LRU.dir/LRUCache.cpp.o.d
-  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/LRU.dir
-  OBJECT_FILE_DIR = CMakeFiles/LRU.dir
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target LRU
@@ -69,7 +63,7 @@ build CMakeFiles/LRU.dir/LRUCache.cpp.o: CXX_COMPILER__LRU_unscanned_Debug /User
 #############################################
 # Link the executable LRU
 
-build LRU: CXX_EXECUTABLE_LINKER__LRU_Debug CMakeFiles/LRU.dir/main.cpp.o CMakeFiles/LRU.dir/LRUCache.cpp.o
+build LRU: CXX_EXECUTABLE_LINKER__LRU_Debug CMakeFiles/LRU.dir/main.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/LRU.dir
   POST_BUILD = :
